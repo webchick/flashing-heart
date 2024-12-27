@@ -11,7 +11,8 @@
         "main.ts",
         "README.md",
         "pxt.json",
-        "_history"
+        "_history",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
