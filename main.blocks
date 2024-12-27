@@ -1,15 +1,21 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="{|jxVHVZtBDkNqtiXWmG" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="B0vxK29D0u(pDFwzrskD"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="{|jxVHVZtBDkNqtiXWmG" x="37" y="48"><statement name="HANDLER"><block type="device_show_leds" id="B0vxK29D0u(pDFwzrskD"><field name="LEDS">`
         . # . # . 
         # # # # # 
         # # # # # 
         . # # # . 
         . . # . .
-        `</field><next><block type="device_show_leds" id="Qoy3PcT9/i}=;bCvgvN$"><field name="LEDS">`
+        `</field><next><block type="music_playable_play" id="d8xWQNPm4ajv*}WYUj6Z"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="JElx/-(V4Qd#N1;H2$Rj"><value name="melody"><shadow type="melody_editor" id="]q8OOVI,6k2Xqmw:J6gi"><field name="melody">"C D E F G A B C5 "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="f]4Q/C}QOR0[9H5DM_4."><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value><next><block type="device_show_number" id="MDXKf.dGl{fcP6quAED?"><value name="number"><shadow type="math_number" id="]xdo/y-l;/aqf!:,O8*~"><field name="NUM">679758567586578</field></shadow></value><next><block type="device_print_message" id="VN`kP:)6EBgf1*wf}Vgt"><value name="text"><shadow type="text" id="!OUd!(RrK_h}qr_IS9b;"><field name="TEXT">Hello!</field></shadow></value><next><block type="device_show_leds" id="Qoy3PcT9/i}=;bCvgvN$"><field name="LEDS">`
+        # # . . . 
+        # # . . . 
+        # # . . . 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="`gr/6J=k1zG4[L)pK/F}"><field name="LEDS">`
+        . . # . . 
         . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . . 
-        . . . . .
+        . . # . . 
+        . . # . . 
+        . . # . .
         `</field><next><block type="device_show_leds" id="N5nvI.r_A/3$!)x5f%a2"><field name="LEDS">`
         . # . # . 
         . . . . . 
@@ -22,4 +28,4 @@
         # . # . # 
         . # . # . 
         . . # . .
-        `</field></block></next></block></next></block></next></block></statement></block></xml>
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
